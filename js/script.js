@@ -4,3 +4,8 @@ const swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+const btn = document.querySelector(".btn-toggle");
+btn.addEventListener("click", function () {
+    document.body.classList.toggle("dark-theme");
+});

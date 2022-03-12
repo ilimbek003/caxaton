@@ -14,7 +14,32 @@ a {
 }
 
 body {
+  color: #222;
   background: #F3F3F3;
+}
+
+a {
+  color: #0033cc;
+}
+
+body.dark-theme {
+  color: #eee;
+  background: #121212;
+}
+
+body.dark-theme a {
+  color: #809fff;
+}
+
+.btn-toggle {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 20px;
+}
+
+.btn-toggle:active {
+  color: #FFFFFF;
+  background: black;
 }
 
 #header {
